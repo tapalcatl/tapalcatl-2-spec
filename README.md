@@ -88,8 +88,8 @@ Let's break this down...
 ### Format
 
 Tiles in multiple formats may be included in the same tileset. In practice,
-this often means varying image formats (PNG, WEBP, JPEG, TIF) or tiled vector
-data serialized differently (GeoJSON, TopoJSON, Mapbox Vector Tiles).
+this often means varying image formats (PNG, WEBP, JPEG, TIFF) or tiled
+vector data serialized differently (GeoJSON, TopoJSON, Mapbox Vector Tiles).
 
 Data being represented should be the same; file format should be the only
 difference.
