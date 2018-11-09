@@ -126,7 +126,7 @@ Metatiles must be powers of 2 in order to align with the global grid system.
 If metatiles group objects in 2 dimensions, materialized zooms introduce a
 3rd by allowing sub-pyramids to be included in the same archive (which
 exponentially decreases the number of objects needing to be managed). A list
-of materialized zooms indicates which zooms levels archives are expected to
+of materialized zooms indicates which zoom levels archives are expected to
 exist at ("be material").
 
 For a tileset covering zooms 0-7, if it is materialized at zooms 0 and 4, no
