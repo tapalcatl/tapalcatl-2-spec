@@ -15,6 +15,8 @@ of tiles. E.g.:
 
 ```javascript
 {
+  // Tapalcatl version
+  "tapalcatl": "2.0.0",
   "name": "Land Cover",
   "description": "Unified land cover, derived from MODIS-LC, ESACCI-LC, NLCD, and C-CAP.",
 
@@ -61,6 +63,7 @@ Archive-level metadata is stored as a ZIP comment within each archive. E.g.:
   "root": "4/0/0",
 
   // everything else: as above, but specific to this archive
+  "tapalcatl": "2.0.0",
   "name": "Land Cover",
   "description": "Unified land cover, derived from MODIS-LC, ESACCI-LC, NLCD, and C-CAP.",
   "minzoom": 4,
