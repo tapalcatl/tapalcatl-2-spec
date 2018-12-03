@@ -172,10 +172,14 @@ header names and values, e.g. for gzip-compressed Mapbox Vector Tiles:
 {
   // ...
   "formats": {
-    "mvt": {
-      "Content-Type": "application/vnd.mapbox-vector-tile",
-      "Content-Encoding": "gzip"
-    }
+    "mvt": [
+      {
+        "Content-Type": "application/vnd.mapbox-vector-tile"
+      },
+      {
+        "Content-Encoding": "gzip"
+      }
+    ]
   }
 }
 ```
