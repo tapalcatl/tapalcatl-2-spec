@@ -249,3 +249,7 @@ let my = y >> dz; // => 5
 mx -= mx % metatile; // => 0
 my -= my % metatile; // => 4
 ```
+
+## License
+
+This specification is made available under the terms of the [Creative Commons Zero license](http://creativecommons.org/publicdomain/zero/1.0/).
